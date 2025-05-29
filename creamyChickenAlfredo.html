@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="others-header">
+        <h1>Delightful Dining</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="starters.html">Starters</a></li>
+            <li><a href="meals.html">Meals</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+    </nav>
+
+<div class="body2">
+    <h1 class="food-title">Creamy Chicken Alfredo</h1>
+
+<img class="food-img" src="Meals//Creamy%20Chicken%20Alfredo.jpeg" alt="Creamy Chicken Alfredo">
+
+<p class="food-price"><strong>Price:</strong> $12.00</p>
+<p class="food-size"><strong>Serving Size:</strong> 1 plate</p>
+
+<p class="food-description">
+    This **Creamy Chicken Alfredo** features tender grilled chicken served over fettuccine pasta, coated in a rich and velvety Alfredo sauce.
+    Finished with a sprinkle of parmesan cheese and fresh parsley, this dish delivers a comforting and indulgent experience!
+</p>
+
+<h2 class="extras-title">Extras</h2>
+<ul class="extras-list">
+    <li><span class="extra-name">Extra Alfredo Sauce</span> - <span class="extra-price">$0.75</span></li>
+    <li><span class="extra-name">Garlic Bread</span> - <span class="extra-price">$1.50</span></li>
+    <li><span class="extra-name">Grilled Mushrooms</span> - <span class="extra-price">$1.00</span></li>
+    <li><span class="extra-name">Parmesan Sprinkle</span> - <span class="extra-price">$0.50</span></li>
+</ul>
+
+<h2 class="requests-title">Special Requests</h2>
+
+<form action="/submit_order" method="post">
+    <label for="notes" class="notes-label">Add extra notes/requests:</label><br>
+    <textarea id="notes" name="notes" class="notes-box"></textarea><br><br>
+    
+    <button type="button" class="order-btn" onclick="window.location.href='order.html';">
+        Place Order
+    </button>
+</form>
+</div>
+
+
+<div class="spacer"></div>
+
+<footer>
+    <p>&copy; 2025 Delightful Dining. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="others-header">
+        <h1>Delightful Dining</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="starters.html">Starters</a></li>
+            <li><a href="meals.html">Meals</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+    </nav>
+
+<div class="body2">
+    <h1 class="food-title">Macarons</h1>
+
+    <img class="food-img" src="Desserts/macarons.png" alt="Macarons">
+
+    <p class="food-price"><strong>Price:</strong> $6.50</p>
+    <p class="food-size"><strong>Serving Size:</strong> 6 pieces</p>
+
+    <p class="food-description">
+        These **delicate and colorful macarons** are made with perfectly crisp almond meringue shells, filled with smooth buttercream or ganache. 
+        Available in various flavors, including **chocolate, vanilla, strawberry, pistachio, and salted caramel**.
+    </p>
+
+    <h2 class="extras-title">Extras</h2>
+    <ul class="extras-list">
+        <li><span class="extra-name">Extra Chocolate Filling</span> - <span class="extra-price">$0.75</span></li>
+        <li><span class="extra-name">Crushed Nuts</span> - <span class="extra-price">$0.50</span></li>
+        <li><span class="extra-name">Edible Gold Dust</span> - <span class="extra-price">$1.25</span></li>
+        <li><span class="extra-name">Berry Compote</span> - <span class="extra-price">$0.90</span></li>
+    </ul>
+
+
+<h2 class="requests-title">Special Requests</h2>
+    
+<form action="/submit_order" method="post">
+    <label for="notes" class="notes-label">Add extra notes/requests:</label><br>
+    <textarea id="notes" name="notes" class="notes-box"></textarea><br><br>
+    
+             <button type="button" class="order-btn" onclick="window.location.href='order.html';">
+             Place Order
+            </button>
+</form>
+</div>
+    
+<div class="spacer"></div>
+
+<footer>
+    <p>&copy; 2025 Delightful Dining. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="others-header">
+        <h1>Delightful Dining</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="starters.html">Starters</a></li>
+            <li><a href="meals.html">Meals</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+    </nav>
+
+    <div class="body2">
+    <h1 class="food-title">Classic Mojito</h1>
+
+<img class="food-img" src="Drinks/Classic%20Mojito.jpeg" alt="Classic Mojito">
+
+<p class="food-price"><strong>Price:</strong> $6.00</p>
+<p class="food-size"><strong>Serving Size:</strong> 1 glass</p>
+
+<p class="food-description">
+    This **Classic Mojito** is a refreshing blend of fresh mint leaves, lime juice, white rum, and soda water.
+    Lightly sweetened and served over ice, it’s the perfect crisp and invigorating cocktail!
+</p>
+
+<h2 class="extras-title">Extras</h2>
+<ul class="extras-list">
+    <li><span class="extra-name">Extra Mint Leaves</span> - <span class="extra-price">$0.30</span></li>
+    <li><span class="extra-name">Lime Wedge</span> - <span class="extra-price">$0.25</span></li>
+    <li><span class="extra-name">Sugar Rim</span> - <span class="extra-price">$0.50</span></li>
+    <li><span class="extra-name">Club Soda</span> - <span class="extra-price">$0.40</span></li>
+</ul>
+
+<h2 class="requests-title">Special Requests</h2>
+
+<form action="/submit_order" method="post">
+    <label for="notes" class="notes-label">Add extra notes/requests:</label><br>
+    <textarea id="notes" name="notes" class="notes-box"></textarea><br><br>
+    
+    <button type="button" class="order-btn" onclick="window.location.href='order.html';">
+        Place Order
+    </button>
+</form>
+</div>
+
+<div class="spacer"></div>
+
+<footer>
+    <p>&copy; 2025 Delightful Dining. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

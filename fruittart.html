@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="others-header">
+        <h1>Delightful Dining</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="starters.html">Starters</a></li>
+            <li><a href="meals.html">Meals</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+    </nav>
+
+<div class="body2">
+    <h1 class="food-title">Fruit Tart</h1>
+
+    <img class="food-img" src="Desserts/fruit-tart.jpg" alt="Fruit Tart">
+
+    <p class="food-price"><strong>Price:</strong> $7.25</p>
+    <p class="food-size"><strong>Serving Size:</strong> 1 tart</p>
+
+    <p class="food-description">
+        This **delicious fruit tart** features a buttery, flaky crust filled with smooth vanilla pastry cream, topped with an assortment of fresh fruits.
+        Enjoy a mix of **strawberries, blueberries, kiwi, and oranges**, finished with a light glaze for a perfect balance of sweetness and freshness!
+    </p>
+
+    <h2 class="extras-title">Extras</h2>
+    <ul class="extras-list">
+        <li><span class="extra-name">Whipped Cream</span> - <span class="extra-price">$0.50</span></li>
+        <li><span class="extra-name">Extra Berries</span> - <span class="extra-price">$0.75</span></li>
+        <li><span class="extra-name">Almond Slices</span> - <span class="extra-price">$1.00</span></li>
+        <li><span class="extra-name">Caramel Drizzle</span> - <span class="extra-price">$0.60</span></li>
+    </ul>
+
+    <h2 class="requests-title">Special Requests</h2>
+    
+    <form action="/submit_order" method="post">
+        <label for="notes" class="notes-label">Add extra notes/requests:</label><br>
+        <textarea id="notes" name="notes" class="notes-box"></textarea><br><br>
+        
+        <button type="button" class="order-btn" onclick="window.location.href='order.html';">
+            Place Order
+        </button>
+    </form>
+</div>
+
+<div class="spacer"></div>
+
+<footer>
+    <p>&copy; 2025 Delightful Dining. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="others-header">
+        <h1>Delightful Dining</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="starters.html">Starters</a></li>
+            <li><a href="meals.html">Meals</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+    </nav>
+
+<div class="body2">
+    <h1 class="food-title">Stuffed Bell Peppers</h1>
+
+<img class="food-img" src="Meals/Stuffed%20Bell%20Peppers.jpeg" alt="Stuffed Bell Peppers">
+
+<p class="food-price"><strong>Price:</strong> $11.00</p>
+<p class="food-size"><strong>Serving Size:</strong> 2 stuffed peppers</p>
+
+<p class="food-description">
+    These **Stuffed Bell Peppers** are filled with a savory blend of ground beef, rice, tomatoes, and spices, then baked to perfection.
+    Topped with melted cheese and fresh herbs, they offer a delicious balance of hearty flavors and comforting textures!
+</p>
+
+<h2 class="extras-title">Extras</h2>
+<ul class="extras-list">
+    <li><span class="extra-name">Extra Cheese</span> - <span class="extra-price">$0.75</span></li>
+    <li><span class="extra-name">Garlic Butter Drizzle</span> - <span class="extra-price">$0.50</span></li>
+    <li><span class="extra-name">Chili Flakes</span> - <span class="extra-price">$0.40</span></li>
+    <li><span class="extra-name">Fresh Parsley Garnish</span> - <span class="extra-price">$0.30</span></li>
+</ul>
+
+<h2 class="requests-title">Special Requests</h2>
+
+<form action="/submit_order" method="post">
+    <label for="notes" class="notes-label">Add extra notes/requests:</label><br>
+    <textarea id="notes" name="notes" class="notes-box"></textarea><br><br>
+    
+    <button type="button" class="order-btn" onclick="window.location.href='order.html';">
+        Place Order
+    </button>
+</form>
+</div>
+
+
+<div class="spacer"></div>
+
+<footer>
+    <p>&copy; 2025 Delightful Dining. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

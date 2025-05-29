@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="others-header">
+        <h1>Delightful Dining</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="starters.html">Starters</a></li>
+            <li><a href="meals.html">Meals</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+    </nav>
+
+<div class="body2">
+    <h1 class="food-title">Stuffed Mushrooms</h1>
+
+<img class="food-img" src="Starters/stuffedmushrooms.png" alt="Stuffed Mushrooms">
+
+<p class="food-price"><strong>Price:</strong> $7.50</p>
+<p class="food-size"><strong>Serving Size:</strong> 1 plate</p>
+
+<p class="food-description">
+    These **stuffed mushrooms** are filled with a delicious blend of cream cheese, garlic, and herbs, then baked to perfection.
+    Served with a side of **savory marinara sauce**, they offer a delightful mix of creamy and earthy flavors in every bite!
+</p>
+
+<h2 class="extras-title">Extras</h2>
+<ul class="extras-list">
+    <li><span class="extra-name">Extra Marinara Sauce</span> - <span class="extra-price">$0.50</span></li>
+    <li><span class="extra-name">Cheese Sprinkle</span> - <span class="extra-price">$0.40</span></li>
+    <li><span class="extra-name">Garlic Butter Drizzle</span> - <span class="extra-price">$0.75</span></li>
+    <li><span class="extra-name">Herb Mix</span> - <span class="extra-price">$0.30</span></li>
+</ul>
+
+<h2 class="requests-title">Special Requests</h2>
+
+<form action="/submit_order" method="post">
+    <label for="notes" class="notes-label">Add extra notes/requests:</label><br>
+    <textarea id="notes" name="notes" class="notes-box"></textarea><br><br>
+    
+    <button type="button" class="order-btn" onclick="window.location.href='order.html';">
+        Place Order
+    </button>
+</form>
+</div>
+
+<div class="spacer"></div>
+
+<footer>
+    <p>&copy; 2025 Delightful Dining. All Rights Reserved.</p>
+</footer>
+    </body>
+</html>

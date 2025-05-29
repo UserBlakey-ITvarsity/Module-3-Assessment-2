@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="others-header">
+        <h1>Delightful Dining</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="starters.html">Starters</a></li>
+            <li><a href="meals.html">Meals</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+    </nav>
+
+<div class="body2">
+    <h1 class="food-title">Mini Caprese Skewers</h1>
+
+<img class="food-img" src="Starters/caprese-skewers.jpg" alt="Mini Caprese Skewers">
+
+<p class="food-price"><strong>Price:</strong> $6.50</p>
+<p class="food-size"><strong>Serving Size:</strong> 6 skewers</p>
+
+<p class="food-description">
+    These **Mini Caprese Skewers** bring together the fresh flavors of cherry tomatoes, mozzarella balls, and basil leaves, all drizzled with a rich balsamic glaze.
+    A perfect bite-sized appetizer that delivers a refreshing and balanced taste with every skewer!
+</p>
+
+<h2 class="extras-title">Extras</h2>
+<ul class="extras-list">
+    <li><span class="extra-name">Extra Balsamic Glaze</span> - <span class="extra-price">$0.50</span></li>
+    <li><span class="extra-name">Olive Oil Drizzle</span> - <span class="extra-price">$0.40</span></li>
+    <li><span class="extra-name">Cracked Black Pepper</span> - <span class="extra-price">$0.30</span></li>
+    <li><span class="extra-name">Parmesan Sprinkle</span> - <span class="extra-price">$0.60</span></li>
+</ul>
+
+<h2 class="requests-title">Special Requests</h2>
+
+<form action="/submit_order" method="post">
+    <label for="notes" class="notes-label">Add extra notes/requests:</label><br>
+    <textarea id="notes" name="notes" class="notes-box"></textarea><br><br>
+    
+    <button type="button" class="order-btn" onclick="window.location.href='order.html';">
+        Place Order
+    </button>
+</form>
+</div>
+
+<div class="spacer"></div>
+
+<footer>
+    <p>&copy; 2025 Delightful Dining. All Rights Reserved.</p>
+</footer>
+    </body>
+</html>
